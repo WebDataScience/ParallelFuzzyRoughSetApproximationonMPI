@@ -7,7 +7,7 @@ This code can only run on a Linux environment. It is required that the same path
 To compile the code on an Intel cluster, run the below:
 mpiicc final_code.c -o fuzz
 
-To compile the code on an Intel cluster, run the below:
+To compile the code on MPICH, run the below:
 mpicc final_code.c -o fuzz
 
 The above will create an executable file "fuzz" which is the MPI program. To execute this program, do the following:
